@@ -1,5 +1,5 @@
 {
-  "name": "@meltwater/phi",
+  "name": "@pureskillgg/phi",
   "version": "5.0.0",
   "description": "Functional tools for JavaScript inspired by Ramda and Ramda Adjunct.",
   "type": "module",
@@ -134,7 +134,7 @@
     "@babel/core": "^7.0.1",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@meltwater/examplr": "^6.0.0",
+    "@pureskillgg/examplr": "^7.0.0",
     "ava": "^3.3.0",
     "babel-plugin-add-import-extension": "^1.4.3",
     "del-cli": "^4.0.1",
