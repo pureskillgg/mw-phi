@@ -1,6 +1,6 @@
 # φ
 
-[![npm](https://img.shields.io/npm/v/@meltwater/phi.svg)](https://www.npmjs.com/package/@meltwater/phi)
+[![npm](https://img.shields.io/npm/v/@pureskillgg/phi.svg)](https://www.npmjs.com/package/@pureskillgg/phi)
 [![github](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/meltwater/phi)
 [![docs](https://img.shields.io/badge/docs-latest-green.svg)](https://phi.meltwaterlabs.com)
 [![Codecov](https://img.shields.io/codecov/c/github/meltwater/phi.svg)](https://codecov.io/gh/meltwater/phi)
@@ -26,13 +26,13 @@ so they all may be imported from the same place.
 Add this as a dependency to your project using [npm] with
 
 ```
-$ npm install @meltwater/phi
+$ npm install @pureskillgg/phi
 ```
 
 or using [Yarn] with
 
 ```
-$ yarn add @meltwater/phi
+$ yarn add @pureskillgg/phi
 ```
 
 [npm]: https://www.npmjs.com/
@@ -47,7 +47,7 @@ import {
   prop, // from Ramda
   isNil, // from Ramda Adjunct
   nOf // from Phi
-} from '@meltwater/phi'
+} from '@pureskillgg/phi'
 
 prop('foo', { foo: 'bar' }) //=> 'bar'
 isNil({}) //=> false

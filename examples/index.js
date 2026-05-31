@@ -1,6 +1,6 @@
 import path from 'path'
 
-import { createExamples } from '@meltwater/examplr'
+import { createExamples } from '@pureskillgg/examplr'
 
 import nOf from './n-of.js'
 
