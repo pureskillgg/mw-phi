@@ -1,6 +1,6 @@
 {
   "name": "@pureskillgg/phi",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "Functional tools for JavaScript inspired by Ramda and Ramda Adjunct.",
   "type": "module",
   "main": "dist/index.cjs",
