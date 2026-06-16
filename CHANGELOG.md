@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.1.2] / 2026-06-02
+
+### Changed
+
+- Use yarn instead of npm in the publish workflow.
+
+## [5.1.1] / 2026-06-02
+
+### Changed
+
+- Add missing dependency installation step to the publish workflow.
+
+## [5.1.0] / 2026-06-02
+
+### Changed
+
+- Add a build step before publishing to npm.
+- Stop publishing releases to Sentry.
+
+## [5.0.2] / 2026-05-31
+
+### Changed
+
+- Version bump; no code changes.
+
+## [5.0.1] / 2026-05-31
+
+### Changed
+
+- Rename package from `@meltwater/phi` to `@pureskillgg/phi`.
+- Migrate GitHub Actions workflows and update the lock file.
+
 ## [5.0.0] / 2022-02-14
 
 ### Changed
@@ -284,7 +316,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 
-[Unreleased]: https://github.com/meltwater/phi/compare/v5.0.0...HEAD
+[Unreleased]: https://github.com/meltwater/phi/compare/v5.1.2...HEAD
+[5.1.2]: https://github.com/meltwater/phi/compare/v5.1.1...v5.1.2
+[5.1.1]: https://github.com/meltwater/phi/compare/v5.1.0...v5.1.1
+[5.1.0]: https://github.com/meltwater/phi/compare/v5.0.2...v5.1.0
+[5.0.2]: https://github.com/meltwater/phi/compare/v5.0.1...v5.0.2
+[5.0.1]: https://github.com/meltwater/phi/compare/v5.0.0...v5.0.1
 [5.0.0]: https://github.com/meltwater/phi/compare/v4.1.0...v5.0.0
 [4.1.0]: https://github.com/meltwater/phi/compare/v3.0.0...v4.1.0
 [4.0.0]: https://github.com/meltwater/phi/compare/v3.10.0...v4.0.0
