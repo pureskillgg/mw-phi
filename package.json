@@ -17,7 +17,10 @@
   ],
   "homepage": "https://github.com/pureskillgg/mw-phi",
   "bugs": "https://github.com/pureskillgg/mw-phi/issues",
-  "repository": "pureskillgg/mw-phi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pureskillgg/mw-phi.git"
+  },
   "license": "MIT",
   "author": {
     "name": "Evan Sosenko",
@@ -36,14 +39,15 @@
     "test:debug": "ava debug --break",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint .",
-    "lint:prettier": "prettier --check --ignore-path .gitignore '**/*.(js|cjs|mjs|json|yml|yaml|graphql)'",
+    "lint:prettier": "prettier --check --ignore-path .gitignore '**/*.{js,cjs,mjs,json,yml,yaml,graphql}'",
     "build:docs": "jsdoc -c jsdoc.json",
+    "prepublishOnly": "npm-run-all --parallel lint test",
     "preversion": "npm-run-all --parallel lint test",
     "postversion": "git push --follow-tags",
     "example": "node examples",
     "example:inspect": "node --inspect examples",
     "format": "npm-run-all --parallel format:*",
-    "format:prettier": "prettier --write --ignore-path .gitignore '**/*.(js|cjs|mjs|json|yml|yaml|graphql)'",
+    "format:prettier": "prettier --write --ignore-path .gitignore '**/*.{js,cjs,mjs,json,yml,yaml,graphql}'",
     "format:js": "eslint --fix .",
     "report": "c8 report"
   },
